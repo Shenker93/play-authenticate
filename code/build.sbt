@@ -4,11 +4,11 @@ name := "play-authenticate"
 
 javacOptions ++= Seq("-Werror")
 
-scalaVersion := "2.12.6"
-crossScalaVersions := Seq("2.11.12", "2.12.6")
+scalaVersion := "2.12.8"
+crossScalaVersions := Seq("2.11.12", "2.12.8")
 
 libraryDependencies ++= Seq(
-  "org.apache.httpcomponents" % "httpclient" % "4.5",
+  "org.apache.httpcomponents" % "httpclient" % "4.5.7",
   "com.feth" %% "play-easymail" % "0.9.3",
   "org.mindrot" % "jbcrypt" % "0.3m",
   "org.apache.commons" % "commons-lang3" % "3.4",
